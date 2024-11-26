@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Upload Your File</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="alert alert-success" role="alert">
+                    Thanks for submitting your file!
+                </div>
+                <a href="{{ url_for('index') }}" class="btn btn-secondary btn-block">Go Back to Home</a>
+            </div>
+        </div>
+    </div>
+</body>
+{% endblock %}
+
